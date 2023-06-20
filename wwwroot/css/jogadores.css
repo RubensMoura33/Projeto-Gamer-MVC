@@ -4,16 +4,10 @@
 
 main {
     height: auto;
-    background-image: url(../assets/fundo-jogadores-mobile.png);
+    background-image: url(../assets/jogadores.png);
     background-size: contain;
     background-position: top;
 }
-
-
-
-
-
-
 
 /* FORMULÁRIO DE CADASTRO DE EQUIPES */
 main .cadastro-equipes {
@@ -86,7 +80,7 @@ main .cadastro-equipes .frm-cad-equipe .campo-entrada {
     margin-bottom: 25px;
     padding: 5px 10px;
     /* font-size: 22px; */
-    color: white;
+    color: black;
     outline: none;
 
     font-family: TitilliumWeb-Thin, sans-serif;
@@ -136,7 +130,6 @@ main .cadastro-equipes .frm-cad-equipe .foto::before {
 }
 
 
-
 /* button */
 main .cadastro-equipes .frm-cad-equipe button {
     width: 100%;
@@ -152,6 +145,7 @@ main .cadastro-equipes .frm-cad-equipe button {
 
 /* TABELA CADASTRO DE EQUIPES */
 main .cadastro-equipes table {
+    margin-top: 150px;
     width: 100%;
     position: relative;
     z-index: 2;
